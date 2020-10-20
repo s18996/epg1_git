@@ -1,0 +1,12 @@
+git clone https://github.com/s18996/epg1_git.git
+git checkout -b hw-s18996 master
+git checkout -b rebase-me origin/rebase-me
+git rebase hw-s18996 rebase-me
+git switch hw-s18996
+git merge rebase-me
+git checkout -b merge-me origin/merge-me
+git switch hw-s18996
+git merge merge-me
+git add README.md
+git add solution.txt
+
